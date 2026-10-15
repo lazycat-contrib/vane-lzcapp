@@ -1,0 +1,15 @@
+package: community.lazycat.app.vane
+version: 1.12.2
+name: Vane
+description: "Privacy-focused AI answering engine with built-in SearXNG"
+min_os_version: 1.5.0
+author: ItzCrazyKns
+license: MIT
+homepage: https://github.com/ItzCrazyKns/Vane
+locales:
+  zh:
+    name: "Vane"
+    description: "隐私优先的 AI 问答引擎：内置 SearXNG 元搜索，支持 Ollama 本地模型与 OpenAI/Claude/Groq 等云服务商，回答附带引用来源"
+  en:
+    name: "Vane"
+    description: "Privacy-focused AI answering engine with built-in SearxNG search, local LLMs (Ollama) and cloud providers"
