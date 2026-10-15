@@ -7,10 +7,9 @@ application:
   upstreams:
     - location: /
       backend: http://vane:3000/
-
 services:
   vane:
-    # upstream: itzcrazykns1337/vane:v1.12.2 (docker.io)
+    # upstream: docker.io/itzcrazykns1337/vane:v1.12.2
     image: docker.1ms.run/itzcrazykns1337/vane:v1.12.2
     binds:
       - /lzcapp/var/vane:/home/vane/data
